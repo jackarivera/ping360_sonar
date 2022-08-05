@@ -37,7 +37,7 @@ Get the latest stable release [here](https://github.com/CentraleNantesRobotics/p
 Clone with `--recursive` in order to get the necessary `ping-cpp` library:
 
 	cd ros2_workspace/src
-	git clone https://github.com/CentraleNantesRobotics/ping360_sonar.git -b ros2 --recursive
+	git clone https://github.com/jackarivera/ping360_sonar.git -b ros2 --recursive
 	cd ../..
 	colcon build --symlink-install --packages-select ping360_sonar
 
