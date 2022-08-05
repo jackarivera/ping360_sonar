@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 ## Overview
 
-A ROS 2 package for the [BlueRobotics] [Ping360] Sonar. This code is being developped for Foxy.
+A ROS 2 package for the [BlueRobotics] [Ping360] Sonar and Cerulean Sonar's. This code is being developed for Humble.
 
 **Keywords:** ROS 2, ping360
 
@@ -37,7 +37,7 @@ Get the latest stable release [here](https://github.com/CentraleNantesRobotics/p
 Clone with `--recursive` in order to get the necessary `ping-cpp` library:
 
 	cd ros2_workspace/src
-	git clone https://github.com/CentraleNantesRobotics/ping360_sonar.git -b ros2 --recursive
+	git clone https://github.com/jackarivera/ping360_sonar.git -b ros2 --recursive
 	cd ../..
 	colcon build --symlink-install --packages-select ping360_sonar
 
